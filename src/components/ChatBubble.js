@@ -22,7 +22,7 @@ class ChatBubble extends Component {
       }
       return (
               <div className={`bubble-container ${bubbleDirection}`} key={index}>
-               {message.image != ''?<img className={`img-circle`} src={message.image} />:null}
+                
                 <div className={`bubble ${bubbleClass}`}>{message.text}</div>
               </div>
           );
